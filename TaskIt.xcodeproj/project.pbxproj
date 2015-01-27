@@ -13,6 +13,7 @@
 		CE4A82051A76476500271B06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4A82041A76476500271B06 /* Images.xcassets */; };
 		CE4A82081A76476500271B06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4A82061A76476500271B06 /* LaunchScreen.xib */; };
 		CE4A82141A76476500271B06 /* TaskItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A82131A76476500271B06 /* TaskItTests.swift */; };
+		CE4E517C1A77B591008B6675 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E517B1A77B591008B6675 /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		CE4A820D1A76476500271B06 /* TaskItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4A82121A76476500271B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4A82131A76476500271B06 /* TaskItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItTests.swift; sourceTree = "<group>"; };
+		CE4E517B1A77B591008B6675 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				CE4A81FD1A76476500271B06 /* AppDelegate.swift */,
 				CE4A81FF1A76476500271B06 /* ViewController.swift */,
+				CE4E517B1A77B591008B6675 /* TaskCell.swift */,
 				CE4A82011A76476500271B06 /* Main.storyboard */,
 				CE4A82041A76476500271B06 /* Images.xcassets */,
 				CE4A82061A76476500271B06 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4A82001A76476500271B06 /* ViewController.swift in Sources */,
+				CE4E517C1A77B591008B6675 /* TaskCell.swift in Sources */,
 				CE4A81FE1A76476500271B06 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				CE4A82191A76476500271B06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE4A821A1A76476500271B06 /* Build configuration list for PBXNativeTarget "TaskItTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				CE4A821C1A76476500271B06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
