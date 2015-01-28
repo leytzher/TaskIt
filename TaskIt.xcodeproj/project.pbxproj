@@ -15,6 +15,7 @@
 		CE4A82141A76476500271B06 /* TaskItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A82131A76476500271B06 /* TaskItTests.swift */; };
 		CE4E517C1A77B591008B6675 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E517B1A77B591008B6675 /* TaskCell.swift */; };
 		CE5D6B3C1A78EBC800D09433 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D6B3B1A78EBC800D09433 /* TaskModel.swift */; };
+		CE5D6B3E1A78F33C00D09433 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D6B3D1A78F33C00D09433 /* TaskDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		CE4A82131A76476500271B06 /* TaskItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItTests.swift; sourceTree = "<group>"; };
 		CE4E517B1A77B591008B6675 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		CE5D6B3B1A78EBC800D09433 /* TaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		CE5D6B3D1A78F33C00D09433 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				CE4A81FD1A76476500271B06 /* AppDelegate.swift */,
 				CE4A81FF1A76476500271B06 /* ViewController.swift */,
+				CE5D6B3D1A78F33C00D09433 /* TaskDetailViewController.swift */,
 				CE5D6B3B1A78EBC800D09433 /* TaskModel.swift */,
 				CE4E517B1A77B591008B6675 /* TaskCell.swift */,
 				CE4A82011A76476500271B06 /* Main.storyboard */,
@@ -222,6 +225,7 @@
 				CE4E517C1A77B591008B6675 /* TaskCell.swift in Sources */,
 				CE5D6B3C1A78EBC800D09433 /* TaskModel.swift in Sources */,
 				CE4A81FE1A76476500271B06 /* AppDelegate.swift in Sources */,
+				CE5D6B3E1A78F33C00D09433 /* TaskDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
